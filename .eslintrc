@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": [
+    "./node_modules/standard/eslintrc.json"
+  ],
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "no-console": "warn"
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    "build/"
+  ]
+}
